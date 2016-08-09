@@ -1,0 +1,1 @@
+Reload of new configuration (14 local repos, 4 remote repos, 6 virtual repos) succeeded

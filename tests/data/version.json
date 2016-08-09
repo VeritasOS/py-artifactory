@@ -1,0 +1,6 @@
+{
+    "version" : "4.8.1",
+    "revision" : "40220",
+    "addons" : [ "blackduck", "bower", "build", "cocoapods", "debian", "docker", "filestore", "filtered-resources", "gems", "git-lfs", "layouts", "ldap", "license", "npm", "nuget", "opkg", "p2", "plugins", "properties", "pypi", "replication", "rest", "search", "sso", "support", "vagrant", "vcs", "watch", "webstart", "yum" ],
+    "license" : "7e5fc5f4557a7d2f6de746f500d9a1b2d05789f31"
+}

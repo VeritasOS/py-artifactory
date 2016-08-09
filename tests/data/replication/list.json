@@ -1,0 +1,26 @@
+[
+    {
+        "url" : "http://127.0.0.1:8081/artifactory/remote-repo",
+        "socketTimeoutMillis" : 1500,
+        "username" : "admin",
+        "password" : "password",
+        "enableEventReplication" : false,
+        "enabled" : true,
+        "cronExp" : "0 0 12 * * ?",
+        "syncDeletes" : false,
+        "syncProperties" : true,
+        "repoKey" : "test-repo"
+    },
+    {
+        "url" : "http://127.0.0.1:8081/artifactory/existing-remote-repo",
+        "socketTimeoutMillis" : 1500,
+        "username" : "admin",
+        "password" : "password",
+        "enableEventReplication" : false,
+        "enabled" : true,
+        "cronExp" : "0 0 12 * * ?",
+        "syncDeletes" : false,
+        "syncProperties" : true,
+        "repoKey" : "test-repo"
+    }
+]

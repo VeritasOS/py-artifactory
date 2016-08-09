@@ -1,0 +1,9 @@
+[
+    {
+        "name" : "test_group",
+        "uri" : "http://127.0.0.1:8081/artifactory/api/security/groups/test_group"
+    }, {
+    "name" : "readers",
+    "uri" : "http://127.0.0.1:8081/artifactory/api/security/groups/readers"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name" : "first.last",
+        "uri" : "http://127.0.0.1:8081/artifactory/api/security/users/first.last"
+    }, {
+    "name" : "admin",
+    "uri" : "http://127.0.0.1:8081/artifactory/api/security/users/admin"
+    }, {
+    "name" : "anonymous",
+    "uri" : "http://127.0.0.1:8081/artifactory/api/security/users/anonymous"
+    }
+]

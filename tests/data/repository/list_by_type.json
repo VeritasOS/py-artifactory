@@ -1,0 +1,27 @@
+[
+    {
+        "url": "http://127.0.0.1:8081/artifactory/libs-release",
+        "type": "VIRTUAL",
+        "key": "libs-release"
+    },
+    {
+        "url": "http://127.0.0.1:8081/artifactory/libs-snapshot",
+        "type": "VIRTUAL",
+        "key": "libs-snapshot"
+    },
+    {
+        "url": "http://127.0.0.1:8081/artifactory/plugins-release",
+        "type": "VIRTUAL",
+        "key": "plugins-release"
+    },
+    {
+        "url": "http://127.0.0.1:8081/artifactory/plugins-snapshot",
+        "type": "VIRTUAL",
+        "key": "plugins-snapshot"
+    },
+    {
+        "url": "http://127.0.0.1:8081/artifactory/remote-repos",
+        "type": "VIRTUAL",
+        "key": "remote-repos"
+    }
+]

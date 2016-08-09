@@ -1,0 +1,12 @@
+[
+    {
+        "name" : "demo-permissions-dev",
+        "uri" : "http://127.0.0.1:8081/artifactory/api/security/permissions/demo-permissions-dev"
+    }, {
+    "name" : "Anything",
+    "uri" : "http://127.0.0.1:8081/artifactory/api/security/permissions/Anything"
+    }, {
+    "name" : "Any Remote",
+    "uri" : "http://127.0.0.1:8081/artifactory/api/security/permissions/Any%20Remote"
+    }
+]

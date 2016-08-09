@@ -1,0 +1,16 @@
+<ldapSettings xmlns="{{ nsmap }}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ldapSetting>
+        <key>{{ name }}</key>
+        <enabled>{{ enable_ldap_settings|lower }}</enabled>
+        <ldapUrl>{{ url }}</ldapUrl>
+        <search>
+            <searchFilter>{{ search_filter }}</searchFilter>
+            <searchBase>{{ search_base }}</searchBase>
+            <searchSubTree>{{ enable_subtree_search|lower }}</searchSubTree>
+            <managerDn>{{ manager_dn }}</managerDn>
+            <managerPassword>{{ manager_password }}</managerPassword>
+        </search>
+        <autoCreateUser>{{ enable_auto_create_user|lower }}</autoCreateUser>
+        <emailAttribute>{{ email_attribute }}</emailAttribute>
+    </ldapSetting>
+</ldapSettings>

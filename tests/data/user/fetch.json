@@ -1,0 +1,9 @@
+{
+  "name" : "first.last",
+  "email" : "first.name@testartifactory.com",
+  "admin" : false,
+  "profileUpdatable" : true,
+  "internalPasswordDisabled" : false,
+  "groups" : [ "readers" ],
+  "offlineMode" : false
+}

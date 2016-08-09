@@ -1,0 +1,13 @@
+<ldapGroupSettings xmlns="{{ nsmap }}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ldapGroupSetting>
+        <name>{{ group_name }}</name>
+        <groupBaseDn>{{ group_search_base }}</groupBaseDn>
+        <groupNameAttribute>{{ group_name_attribute }}</groupNameAttribute>
+        <groupMemberAttribute>{{ group_member_attribute }}</groupMemberAttribute>
+        <subTree>{{ enable_group_subtree_search|lower }}</subTree>
+        <filter>{{ group_filter }}</filter>
+        <descriptionAttribute>{{ description_attribute }}</descriptionAttribute>
+        <strategy>{{ mapping_strategy }}</strategy>
+        <enabledLdap>{{ name }}</enabledLdap>
+    </ldapGroupSetting>
+</ldapGroupSettings>

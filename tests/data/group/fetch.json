@@ -1,0 +1,7 @@
+{
+    "name" : "test_group",
+    "description" : "group for testing",
+    "autoJoin" : false,
+    "realm" : "",
+    "realmAttributes" : ""
+}
