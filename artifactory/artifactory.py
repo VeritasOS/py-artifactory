@@ -15,6 +15,7 @@ from .repository import Repository
 from .security import Security
 from .ldapgroup import LdapGroups
 from .replication import Replications
+from .search import Search
 from .logger import log
 
 
@@ -54,3 +55,8 @@ class Artifactory(object):
     def version(self):
         self.log.debug("Initializing artifactory system/version api")
         return Version(self.api).fetch()
+
+    @property
+    def search(self):
+        self.log.debug("Initializing artifactory search api")
+        return Search(self.api)
