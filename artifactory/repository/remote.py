@@ -55,7 +55,7 @@ class Remote(RepositoryType):
             ("enable_vagrant_support", "enableVagrantSupport", False),
             ("force_nuget_authentication", "forceNugetAuthentication", False),
             ("force_docker_authentication", "forceDockerAuthentication", False),
-            ("docker_api_version", "dockerApiVersion", "V1"),
+            ("docker_api_version", "dockerApiVersion", "V2"),
             ("enable_docker_support", "enableDockerSupport", False),
             ("enable_pypi_support", "enablePypiSupport", False),
             ("debian_trivial_layout", "debianTrivialLayout", False),
