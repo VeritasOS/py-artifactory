@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# vim:filetype=python:tabstop=4:shiftwidth=4:expandtab:
+
 """
 Installer for Artifactory client
 """
@@ -10,12 +12,6 @@ from setuptools import (
         setup,
         find_packages,
         )
-from pip.req import parse_requirements
-from pip.download import PipSession
-
-install_reqs = parse_requirements('requirements.txt', session=PipSession())
-reqs = [str(ir.req) for ir in install_reqs]
-
 
 def read_md(fname):
     """
@@ -42,6 +38,10 @@ setup(
         },
     include_package_data=True,
 
-    install_requires=reqs,
+    install_requires=[
+        'Jinja2==2.8',
+        'requests==2.10.0',
+        'lxml==3.6.0'
+    ],
     zip_safe=False,
 )
