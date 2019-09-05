@@ -40,7 +40,7 @@ class Local(RepositoryType):
             ("force_docker_authentication", "forceDockerAuthentication", False),
             ("enable_file_lists_indexing", "enableFileListsIndexing", False),
             ("optional_index_compression_formats", "optionalIndexCompressionFormats", ["bz2"]),
-            ("downloa_dredirect", "downloadRedirect", False),
+            ("download_redirect", "downloadRedirect", False),
             ]
 
     def __init__(self, api):
