@@ -28,6 +28,10 @@ class Virtual(RepositoryType):
             ("key_pair", "keyPair", ""),
             ("pom_repository_references_cleanup_policy", "pomRepositoryReferencesCleanupPolicy", "discard_active_reference"),
             ("default_deployment_repo", "defaultDeploymentRepo", ""),
+            ("force_maven_authentication", "forceMavenAuthentication", False),
+            ("external_dependencies_enabled", "externalDependenciesEnabled", False),
+            ("external_dependencies_patterns", "externalDependenciesPatterns", [ "**/*microsoft*/**", "**/*github*/**" ]),
+            ("external_dependencies_remote_repo", "externalDependenciesRemoteRepo", ""),
             ]
 
     def __init__(self, api):

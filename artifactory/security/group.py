@@ -40,6 +40,7 @@ class Group(HTTP):
             ("uri", "uri", ""),
             ("description", "description", ""),
             ("auto_join", "autoJoin", False),
+            ("admin_privileges", "adminPrivileges", False),
             ("realm", "realm", ""),
             ("realm_attributes", "realmAttributes", ""),
             ]
