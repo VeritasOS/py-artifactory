@@ -1,5 +1,5 @@
 ### Py-artifactory
-Python rest api client for JFrog artifactory
+Python REST API client for JFrog Artifactory
 
 
 **Installing stable**
