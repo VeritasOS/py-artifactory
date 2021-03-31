@@ -41,7 +41,7 @@ setup(
     install_requires=[
         'Jinja2==2.8',
         'requests==2.20.0',
-        'lxml==3.6.0'
+        'lxml==4.6.3'
     ],
     zip_safe=False,
 )
